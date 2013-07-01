@@ -17,18 +17,16 @@ $flat-orange: #ebb426;
 $flat-purple: #9c6beb;
 $flat-yellow: #eacb5f;
 .title{
-	height: 174px;
-	background: $flat-red;
+	height: 500px;
+	margin: 2px 0;
+	padding: 0 2px;
+}
+.derp{
+	background: $flat-black;
+	height: 500px;
+	width: 100%;
 }
 .shiftLeft{
 	padding:0;
 }
-.name{
-	color:white;
-	font-size: 1.5em;
-}
-.call{
-	margin:0;
-	font-size: 1.5em;
-	padding-top: 10px;
-}
+
