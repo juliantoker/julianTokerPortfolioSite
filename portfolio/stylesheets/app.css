@@ -6710,16 +6710,51 @@ a.th {
 }
 
 /* line 35, ../sass/app.scss */
-.gameTitle {
+.contactTitle {
   height: 147px;
-  background: #1679f7;
+  background: #eacb5f;
   margin-left: 3%;
-  width: 94.3%;
+  width: 90%;
 }
 
 /* line 41, ../sass/app.scss */
+.gameTitle {
+  height: 147px;
+  background: #1679f7;
+  margin-left: 7.2%;
+  width: 90%;
+}
+
+/* line 47, ../sass/app.scss */
+.wrap {
+  width: 90%;
+  margin-left: 7.2%;
+}
+
+/* line 51, ../sass/app.scss */
+.wrap2 {
+  width: 90%;
+  margin-left: 2.7%;
+}
+
+/* line 55, ../sass/app.scss */
 .gameThumb {
   height: 147px;
   background: #e68e8a;
-  margin: 14px 0;
+  margin: 2px -13px;
+}
+
+/* line 60, ../sass/app.scss */
+#twit {
+  background: url(../img/twitterIcon.png) top left no-repeat;
+}
+
+/* line 63, ../sass/app.scss */
+#git {
+  background: url(../img/githubIcon.png) top left no-repeat;
+}
+
+/* line 66, ../sass/app.scss */
+#soundCloud {
+  background: url(../img/soundCloudIcon.png) top left no-repeat;
 }

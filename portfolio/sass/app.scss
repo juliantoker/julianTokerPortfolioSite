@@ -32,14 +32,37 @@ $flat-yellow: #eacb5f;
 	font-size: 1.5em;
 	padding-top: 10px;
 }
+.contactTitle{
+	height: 147px;
+	background: $flat-yellow;
+	margin-left:3%;
+	width: 90%;
+}
 .gameTitle{
 	height: 147px;
 	background: $flat-blue;
-	margin-left:3%;
-	width: 94.3%;
+	margin-left:7.2%;
+	width: 90%;
+}
+.wrap{
+	width: 90%;
+	margin-left:7.2%;
+}
+.wrap2{
+	width: 90%;
+	margin-left:2.7%;
 }
 .gameThumb{
 	height: 147px;
 	background: $flat-drabRed;
-	margin: 14px 0;
+	margin: 2px -13px;
+}
+#twit{
+	background: url(../img/twitterIcon.png) top left no-repeat;
+}
+#git{
+	background: url(../img/githubIcon.png) top left no-repeat;
+}
+#soundCloud{
+	background: url(../img/soundCloudIcon.png) top left no-repeat;
 }
