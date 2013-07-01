@@ -53,7 +53,9 @@ $flat-yellow: #eacb5f;
 	width: 90%;
 	margin-left:2.7%;
 }
-a.gameThumb{display: block;}
+a.gameThumb{
+	display: block;
+}
 .gameThumb{
 	height: 147px;
 	background: $flat-drabRed;
@@ -85,6 +87,24 @@ a.gameThumb{display: block;}
 }
 #quora{
 	background: url(../img/quoraIcon.png) top left no-repeat;
+}
+#cultivate{
+	background: url(../img/cultivateIcon.png) top left no-repeat;
+}
+#cart{
+	background: url(../img/cartShotIcon.png) top left no-repeat;
+}
+#sc{
+	background: url(../img/scMtgIcon.png) top left no-repeat;
+}
+#battleSpheres{
+	background: url(../img/battleSphereIcon.png) top left no-repeat;
+}
+#infinite{
+	background: url(../img/infiniteForestIcon.png) top left no-repeat;
+}
+#mt{
+	background: url(../img/mtbIcon.png) top left no-repeat;
 }
 #twitFrame{
 	width: 34%;

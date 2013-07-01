@@ -6742,63 +6742,89 @@ a.gameThumb {
   display: block;
 }
 
-/* line 57, ../sass/app.scss */
+/* line 59, ../sass/app.scss */
 .gameThumb {
   height: 147px;
   background: #e68e8a;
   margin: 2px -13px;
 }
-/* line 61, ../sass/app.scss */
-.gameThumb:hover {
-  opacity: 0.5;
-}
 
-/* line 65, ../sass/app.scss */
+/* line 64, ../sass/app.scss */
 #twit {
   background: url(../img/twitterIcon.png) top left no-repeat;
 }
 
-/* line 68, ../sass/app.scss */
+/* line 67, ../sass/app.scss */
 #git {
   background: url(../img/githubIcon.png) top left no-repeat;
 }
 
-/* line 71, ../sass/app.scss */
+/* line 70, ../sass/app.scss */
 #soundCloud {
   background: url(../img/soundCloudIcon.png) top left no-repeat;
 }
 
-/* line 74, ../sass/app.scss */
+/* line 73, ../sass/app.scss */
 #sprout {
   background: url(../img/gameSproutIcon.png) top left no-repeat;
 }
 
-/* line 77, ../sass/app.scss */
+/* line 76, ../sass/app.scss */
 #googlePlus {
   background: url(../img/googlePlusIcon.png) top left no-repeat;
 }
 
-/* line 80, ../sass/app.scss */
+/* line 79, ../sass/app.scss */
 #tumblr {
   background: url(../img/tumblrIcon.png) top left no-repeat;
 }
 
-/* line 83, ../sass/app.scss */
+/* line 82, ../sass/app.scss */
 #mail {
   background: url(../img/mailIcon.png) top left no-repeat;
 }
 
-/* line 86, ../sass/app.scss */
+/* line 85, ../sass/app.scss */
 #resume {
   background: url(../img/resumeIcon.png) top left no-repeat;
 }
 
-/* line 89, ../sass/app.scss */
+/* line 88, ../sass/app.scss */
 #quora {
   background: url(../img/quoraIcon.png) top left no-repeat;
 }
 
-/* line 92, ../sass/app.scss */
+/* line 91, ../sass/app.scss */
+#cultivate {
+  background: url(../img/cultivateIcon.png) top left no-repeat;
+}
+
+/* line 94, ../sass/app.scss */
+#cart {
+  background: url(../img/cartShotIcon.png) top left no-repeat;
+}
+
+/* line 97, ../sass/app.scss */
+#sc {
+  background: url(../img/scMtgIcon.png) top left no-repeat;
+}
+
+/* line 100, ../sass/app.scss */
+#battleSpheres {
+  background: url(../img/battleSphereIcon.png) top left no-repeat;
+}
+
+/* line 103, ../sass/app.scss */
+#infinite {
+  background: url(../img/infiniteForestIcon.png) top left no-repeat;
+}
+
+/* line 106, ../sass/app.scss */
+#mt {
+  background: url(../img/mtbIcon.png) top left no-repeat;
+}
+
+/* line 109, ../sass/app.scss */
 #twitFrame {
   width: 34%;
   height: 6%;
@@ -6809,7 +6835,7 @@ a.gameThumb {
   margin-left: -18%;
 }
 
-/* line 102, ../sass/app.scss */
+/* line 119, ../sass/app.scss */
 a.close-reveal-modal:hover {
   color: white;
 }
