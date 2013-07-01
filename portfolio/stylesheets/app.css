@@ -6708,3 +6708,18 @@ a.th {
   font-size: 1.5em;
   padding-top: 10px;
 }
+
+/* line 35, ../sass/app.scss */
+.gameTitle {
+  height: 147px;
+  background: #1679f7;
+  margin-left: 3%;
+  width: 94.3%;
+}
+
+/* line 41, ../sass/app.scss */
+.gameThumb {
+  height: 147px;
+  background: #e68e8a;
+  margin: 14px 0;
+}
