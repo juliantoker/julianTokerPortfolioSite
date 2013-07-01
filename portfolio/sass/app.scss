@@ -6,18 +6,29 @@
 // Comment out this import if you are customizing you imports below
 @import "foundation";
 // Color definitions
-$flat-blue: #41b4c9;
+$flat-blue: #1679f7;
 $flat-darkBlue: #117ab1;
-$flat-green: #b3d01e;
+$flat-green: #73c37e;
 $flat-darkGreen: #2abbb4;
 $flat-black: #666465;
 $flat-red: #f9644e;
+$flat-drabRed: #e68e8a;
 $flat-orange: #ebb426;
 $flat-purple: #9c6beb;
+$flat-yellow: #eacb5f;
 .title{
-	height: 200px;
+	height: 174px;
 	background: $flat-red;
 }
 .shiftLeft{
 	padding:0;
+}
+.name{
+	color:white;
+	font-size: 1.5em;
+}
+.call{
+	margin:0;
+	font-size: 1.5em;
+	padding-top: 10px;
 }

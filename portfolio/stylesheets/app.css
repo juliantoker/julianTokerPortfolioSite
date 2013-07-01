@@ -6685,13 +6685,26 @@ a.th {
   max-width: 800px;
 }
 
-/* line 17, ../sass/app.scss */
+/* line 19, ../sass/app.scss */
 .title {
-  height: 200px;
+  height: 174px;
   background: #f9644e;
 }
 
-/* line 21, ../sass/app.scss */
+/* line 23, ../sass/app.scss */
 .shiftLeft {
   padding: 0;
+}
+
+/* line 26, ../sass/app.scss */
+.name {
+  color: white;
+  font-size: 1.5em;
+}
+
+/* line 30, ../sass/app.scss */
+.call {
+  margin: 0;
+  font-size: 1.5em;
+  padding-top: 10px;
 }
