@@ -34,7 +34,7 @@ $flat-yellow: #eacb5f;
 }
 .contactTitle{
 	height: 147px;
-	background: $flat-yellow;
+	background: $flat-orange;
 	margin-left:3%;
 	width: 90%;
 }
@@ -44,6 +44,7 @@ $flat-yellow: #eacb5f;
 	margin-left:7.2%;
 	width: 90%;
 }
+
 .wrap{
 	width: 90%;
 	margin-left:7.2%;
@@ -52,6 +53,7 @@ $flat-yellow: #eacb5f;
 	width: 90%;
 	margin-left:2.7%;
 }
+a.gameThumb{display: block;}
 .gameThumb{
 	height: 147px;
 	background: $flat-drabRed;
@@ -65,4 +67,34 @@ $flat-yellow: #eacb5f;
 }
 #soundCloud{
 	background: url(../img/soundCloudIcon.png) top left no-repeat;
+}
+#sprout{
+	background: url(../img/gameSproutIcon.png) top left no-repeat;
+}
+#googlePlus{
+	background: url(../img/googlePlusIcon.png) top left no-repeat;
+}
+#tumblr{
+	background: url(../img/tumblrIcon.png) top left no-repeat;
+}
+#mail{
+	background: url(../img/mailIcon.png) top left no-repeat;
+}
+#resume{
+	background: url(../img/resumeIcon.png) top left no-repeat;
+}
+#quora{
+	background: url(../img/quoraIcon.png) top left no-repeat;
+}
+#twitFrame{
+	width: 34%;
+	height: 6%;
+	border-radius: 5px;
+	padding-left:0%;
+	padding-top:0%;
+	background: $flat-black;
+	margin-left: -18%;
+}
+a.close-reveal-modal{
+	&:hover{color:white;};
 }

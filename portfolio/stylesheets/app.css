@@ -6712,7 +6712,7 @@ a.th {
 /* line 35, ../sass/app.scss */
 .contactTitle {
   height: 147px;
-  background: #eacb5f;
+  background: #ebb426;
   margin-left: 3%;
   width: 90%;
 }
@@ -6725,36 +6725,91 @@ a.th {
   width: 90%;
 }
 
-/* line 47, ../sass/app.scss */
+/* line 48, ../sass/app.scss */
 .wrap {
   width: 90%;
   margin-left: 7.2%;
 }
 
-/* line 51, ../sass/app.scss */
+/* line 52, ../sass/app.scss */
 .wrap2 {
   width: 90%;
   margin-left: 2.7%;
 }
 
-/* line 55, ../sass/app.scss */
+/* line 56, ../sass/app.scss */
+a.gameThumb {
+  display: block;
+}
+
+/* line 57, ../sass/app.scss */
 .gameThumb {
   height: 147px;
   background: #e68e8a;
   margin: 2px -13px;
 }
+/* line 61, ../sass/app.scss */
+.gameThumb:hover {
+  opacity: 0.5;
+}
 
-/* line 60, ../sass/app.scss */
+/* line 65, ../sass/app.scss */
 #twit {
   background: url(../img/twitterIcon.png) top left no-repeat;
 }
 
-/* line 63, ../sass/app.scss */
+/* line 68, ../sass/app.scss */
 #git {
   background: url(../img/githubIcon.png) top left no-repeat;
 }
 
-/* line 66, ../sass/app.scss */
+/* line 71, ../sass/app.scss */
 #soundCloud {
   background: url(../img/soundCloudIcon.png) top left no-repeat;
+}
+
+/* line 74, ../sass/app.scss */
+#sprout {
+  background: url(../img/gameSproutIcon.png) top left no-repeat;
+}
+
+/* line 77, ../sass/app.scss */
+#googlePlus {
+  background: url(../img/googlePlusIcon.png) top left no-repeat;
+}
+
+/* line 80, ../sass/app.scss */
+#tumblr {
+  background: url(../img/tumblrIcon.png) top left no-repeat;
+}
+
+/* line 83, ../sass/app.scss */
+#mail {
+  background: url(../img/mailIcon.png) top left no-repeat;
+}
+
+/* line 86, ../sass/app.scss */
+#resume {
+  background: url(../img/resumeIcon.png) top left no-repeat;
+}
+
+/* line 89, ../sass/app.scss */
+#quora {
+  background: url(../img/quoraIcon.png) top left no-repeat;
+}
+
+/* line 92, ../sass/app.scss */
+#twitFrame {
+  width: 34%;
+  height: 6%;
+  border-radius: 5px;
+  padding-left: 0%;
+  padding-top: 0%;
+  background: #666465;
+  margin-left: -18%;
+}
+
+/* line 102, ../sass/app.scss */
+a.close-reveal-modal:hover {
+  color: white;
 }

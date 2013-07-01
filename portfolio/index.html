@@ -37,7 +37,7 @@
         <div class="large-12 columns shiftLeft">
           <div class="contactTitle">
             <div class="large-4 large-centered column">
-              <img src="img/contactIconLarge.png">
+              <img src="img/contactIconLarge2.png">
             </div>
           </div>
         </div>
@@ -45,13 +45,38 @@
       <div class="wrap2">
         <div class="row">
           <div class="large-4 columns">
-            <div class="gameThumb" id="twit"></div>
+            <div class="gameThumb" id="twit" data-reveal-id="twitFrame"></div>
           </div>
           <div class="large-4 columns">
-            <div class="gameThumb" id="git"></div>
+            <a href="https://github.com/juliantoker" target="_blank">
+              <div class="gameThumb" id="git"></div>
+            </a>
           </div>
           <div class="large-4 columns">
-            <div class="gameThumb" id="soundCloud"></div>
+            <a href="https://soundcloud.com/user726577741" target='_blank' class="gameThumb" id="soundCloud"></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-4 columns">
+            <a href="http://www.gamesprout.com/profile" target='_blank' class="gameThumb" id="sprout"></a>
+          </div>
+          <div class="large-4 columns">
+            <a href="https://plus.google.com/100248781692225328828/posts" target='_blank' class="gameThumb" id="googlePlus"></a>
+          </div>
+          <div class="large-4 columns">
+            <a href="http://www.tumblr.com/blog/wowcon" target='_blank' class="gameThumb" id="tumblr"></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-4 columns">
+            <a href="mailto:juliantoker@gmail.com?Subject=Hello%20there" target="_blank" class="gameThumb" id="mail"></a>
+          </div>
+          <div class="large-4 columns">
+            <a href="./JulianTokerResume/JulianTokerResume.html" target='_blank' class="gameThumb" id="resume"></a>
+            
+          </div>
+          <div class="large-4 columns">
+            <a href="http://www.quora.com/Julian-Toker" target='_blank' class="gameThumb" id="quora"></a>
           </div>
         </div>
       </div>
@@ -162,6 +187,15 @@
   
   <script>
     $(document).foundation();
+    $(document).ready(function() {
+      
+    });
   </script>
+  <div id="twitFrame" class="reveal-modal">
+    <a class="twitter-timeline" href="https://twitter.com/JulianToker" data-widget-id="351664244405723136">Tweets by @JulianToker</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+    <a class="close-reveal-modal">&#215;</a>
+  </div>
 </body>
 </html>
