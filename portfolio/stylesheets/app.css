@@ -6835,6 +6835,9 @@ a.gameThumb {
   margin-left: -18%;
 }
 
+#myGrid {
+  margin-right: 0;
+}
 /* line 119, ../sass/app.scss */
 a.close-reveal-modal:hover {
   color: white;
